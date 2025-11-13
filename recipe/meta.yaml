@@ -1,5 +1,5 @@
 {% set name = "compas_eve" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/compas_eve-{{ version }}.tar.gz
-  sha256: 388ee06e913c50fcba9756271726ccb7e95020099607a854ceeb31cadfbca030
+  sha256: 90d9382b98fee557f348390f7e68887ffca5667f22d8ad96d30c1bd902e7f027
 
 build:
   number: 0
