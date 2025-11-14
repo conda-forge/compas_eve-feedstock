@@ -24,7 +24,7 @@ requirements:
     - compas
     - paho-mqtt >=1,<3
     - python >={{ python_min }}
-    - compas_pb >= 0.4.4,<1
+    - compas_pb >=0.4.4,<1
 
 test:
   imports:
